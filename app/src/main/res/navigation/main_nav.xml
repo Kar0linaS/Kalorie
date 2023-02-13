@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/lista_Kalorii">
+
+    <fragment
+        android:id="@+id/lista_Kalorii"
+        android:name="com.dziubi.calorie.ui.lista_kalorii.Lista_Kalorii"
+        android:label="fragment_lista__kalorii"
+        tools:layout="@layout/fragment_lista__kalorii" />
+    <fragment
+        android:id="@+id/dodaj"
+        android:name="com.dziubi.calorie.ui.dodaj.Dodaj"
+        android:label="fragment_dodaj"
+        tools:layout="@layout/fragment_dodaj" />
+    <fragment
+        android:id="@+id/utracone_kalorie"
+        android:name="com.dziubi.calorie.ui.utracone_kalorie.Utracone_kalorie"
+        android:label="fragment_utracone_kalorie"
+        tools:layout="@layout/fragment_utracone_kalorie" />
+    <fragment
+        android:id="@+id/dodane_kalorie"
+        android:name="com.dziubi.calorie.ui.dodane_kalorie.Dodane_kalorie"
+        android:label="fragment_dodane_kalorie"
+        tools:layout="@layout/fragment_dodane_kalorie" />
+    <fragment
+        android:id="@+id/edytuj"
+        android:name="com.dziubi.calorie.ui.edycja.Edytuj"
+        android:label="fragment_edytuj"
+        tools:layout="@layout/fragment_edytuj" />
+</navigation>

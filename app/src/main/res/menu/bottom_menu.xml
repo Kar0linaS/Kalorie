@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/ic_baseline_article_24"
+
+        android:id="@id/lista_Kalorii"
+        android:title= "ALL CALORY" />
+
+    <item
+        android:icon="@drawable/ic_baseline_arrow_upward_24"
+        android:id = "@id/dodane_kalorie"
+        android:title ="ADDED" />
+
+    <item
+        android:icon="@drawable/ic_baseline_arrow_downward_24"
+        android:id="@id/utracone_kalorie"
+        android:title= "LOST" />
+
+
+</menu>
